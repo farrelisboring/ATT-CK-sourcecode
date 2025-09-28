@@ -44,7 +44,6 @@ std::vector<uint8_t> xor_crypt(uint8_t* data, size_t data_size, const uint8_t* k
 }
 
 
-// Generate random key
 std::vector<uint8_t> generate_key() {
     std::random_device rd;
     std::mt19937 gen(rd());
